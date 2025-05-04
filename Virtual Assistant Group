@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VERTUAL ASSISTANT GROUP</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; }
+    header { background: skyblue; color: white; padding: 20px; text-align: center; }
+    nav { background: #007acc; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; max-width: 800px; margin: auto; }
+    form { display: flex; flex-direction: column; gap: 10px; }
+    input, textarea { padding: 10px; font-size: 1em; }
+    button { padding: 10px; background: skyblue; border: none; color: white; cursor: pointer; font-size: 1em; }
+    footer { text-align: center; padding: 15px; background: #eee; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VERTUAL ASSISTANT GROUP</h1>
+    <p>Connecting skilled Virtual Assistants with organizations</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#request">Request a VA</a>
+    <a href="#signup">Sign Up as VA</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section id="home">
+    <h2>Welcome to VERTUAL ASSISTANT GROUP</h2>
+    <p>We connect highly skilled virtual assistants and managers with businesses and organizations that need them. Whether you're looking for top-tier remote help or offering your services, we're your bridge to the right match.</p>
+  </section>  <section id="request">
+    <h2>Request a Virtual Assistant</h2>
+    <form>
+      <input type="text" placeholder="Company Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Type of VA Needed" required>
+      <textarea placeholder="Describe your needs" rows="5" required></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>  <section id="signup">
+    <h2>Sign Up as a Virtual Assistant</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Skills / Expertise" required>
+      <textarea placeholder="Brief Background or Experience" rows="5" required></textarea>
+      <button type="submit">Apply Now</button>
+    </form>
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@vertualassistantgroup.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+  </section>  <footer>
+    &copy; 2025 VERTUAL ASSISTANT GROUP. All rights reserved.
+  </footer>
+</body>
+</html>
